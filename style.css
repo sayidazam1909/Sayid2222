@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+ 
+}
+
+.container{
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.header_link{
+    color: #222222;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.header_btn{
+    color: rgb(222, 46, 84);
+font-family: "Open Sans Condensed";
+font-size: 15px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 2px;
+text-transform: uppercase;
+  width: 200px;
+  height: 50px;
+border: 2px solid #de2e54;
+border-radius: 8px;
+background-color: white;
+}
+.item_textbox{
+    display: flex;
+    gap: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+
+}
+.item_title{
+color: #000000;
+font-family: "Open Sans Condensed";
+font-size: 36px;
+font-weight: 700;
+line-height: 120%;
+text-align: center;
+margin: 50px;
+}
+.item_text{
+color: #444444;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+}
+.item_first{
+    display: flex;
+    align-items: center;
+}
+.textbox{
+    width: 600px;
+}
+
+.bg_section{
+    margin: 100px;
+}
+.bg_wrapper{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+.bg_maps{
+    display: flex;
+    gap: 50px;
+    background-color: #0eb4c1;
+    padding: 150px 100px;
+    margin: 150px;
+}
+
+.bg_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 550px;
+    height: 335px;
+    margin: 0 auto;
+    background-color: white;
+}
+.bg_inputs{
+    width: 450px;
+    height: 40px;
+}
+.bg_btn{
+    width: 460px;
+    border-radius: 5px;
+    padding: 10px;
+background: #38cc8b;
+}
+.legs{
+    display: flex;
+    justify-content: space-evenly;
+      
+    background-color: #222222;
+}
+.legs_list{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+    color: #fff;
+}
+.legs_item{
+    
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
